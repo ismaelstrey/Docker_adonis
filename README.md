@@ -32,18 +32,33 @@ adonis migration:run
 ### Config of .env
 
 HOST=0.0.0.0
+
 PORT=3333
+
 NODE_ENV=development
+
 APP_URL=http://${HOST}:${PORT}
+
 CACHE_VIEWS=false
+
 APP_KEY=
+
 DB_CONNECTION=mysql
+
 DB_HOST=${HOST}
+
 DB_PORT=3306
+
 DB_ROOT_PASSWORD=
+
 DB_ALLOW_EMPTY_PASSWORD=yes
+
 DB_USER=root
+
 DB_PASSWORD=
+
 DB_DATABASE=hello_adonis
+
 SESSION_DRIVER=cookie
+
 HASH_DRIVER=bcrypt
